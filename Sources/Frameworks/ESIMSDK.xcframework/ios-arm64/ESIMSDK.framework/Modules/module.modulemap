@@ -1,0 +1,11 @@
+framework module ESIMSDK {
+  umbrella header "ESIMSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module ESIMSDK.Swift {
+  header "ESIMSDK-Swift.h"
+  requires objc
+}
