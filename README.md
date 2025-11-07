@@ -9,7 +9,7 @@ A Swift package that provides convenient access to eSIM functionality.
 You can add EsimKit to your project using Swift Package Manager. In Xcode, go to:
 
 1. File > Swift Packages > Add Package Dependency
-2. Enter the repository URL: `https://github.com/MobileDevTeamMonty/montyesim-eshop-SDK-iOS.git`
+2. Enter the repository URL: `https://github.com/montymobile1/montyesim-eshop-SDK-iOS.git`
 3. Specify the version or branch you want to use
 4. Click Next and then Finish
 
@@ -17,7 +17,7 @@ Alternatively, you can add it to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/MobileDevTeamMonty/montyesim-eshop-SDK-iOS.git", from: "1.0.0")
+    .package(url: "https://github.com/montymobile1/montyesim-eshop-SDK-iOS.git", from: "1.0.0")
 ],
 targets: [
     .target(
@@ -27,12 +27,6 @@ targets: [
 ```
 
 ## Getting started
-
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://github.com/MobileDevTeamMonty/montyesim-eshop-SDK-iOS/-/settings/integrations)
-
 
 ***
 
