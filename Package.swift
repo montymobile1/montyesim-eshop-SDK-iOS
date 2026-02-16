@@ -6,14 +6,14 @@ import PackageDescription
 let package = Package(
     name: "EsimKit",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13),
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "EsimKit",
             targets: ["EsimKit"]
-        )
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -27,11 +27,10 @@ let package = Package(
         //     name: "ESIMSDK",
         //     path: "./Sources/Frameworks/ESIMSDK.xcframework"
         // ),
-        .binaryTarget(
-            name: "ESIMSDK",
-            url:
-                "https://github.com/montymobile1/montyesim-eshop-SDK-iOS/releases/download/1.0.0/ESIMSDK.xcframework.zip",
-            checksum: "65e1745b171f522227017119b5029c26f4772bccbf61c2bcd65d8bb5a1658311"
-        ),
+       .binaryTarget(
+           name: "ESIMSDK",
+           url: "https://gitlab.com/monty-mobile1/mobile-development/ios/b2c-esim-sdk/b2c-esim-sdk-ios/-/raw/main/ESIMSDK.xcframework.zip",
+           checksum: "955ad59eacf9a968bbd34cb2eb5cd13ea81c4727e20c3703484ac5e8cf662add"
+       )
     ]
 )
