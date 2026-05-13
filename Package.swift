@@ -29,8 +29,8 @@ let package = Package(
         // ),
        .binaryTarget(
            name: "ESIMSDK",
-           url: "https://github.com/montymobile1/montyesim-eshop-SDK-iOS/releases/download/1.0.2/ESIMSDK.xcframework.zip",
-           checksum: "955ad59eacf9a968bbd34cb2eb5cd13ea81c4727e20c3703484ac5e8cf662add"
+           url: "https://github.com/montymobile1/montyesim-eshop-SDK-iOS/releases/download/1.0.3/ESIMSDK.xcframework.zip",
+           checksum: "17e73ce751297be0deafbb5fed27e895a5743dea59fc3ecc3623800d58a2249b"
        )
     ]
 )

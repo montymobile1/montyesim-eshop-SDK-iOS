@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD5266E12F7BC31900A61EA8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CDAFA9A22F7BC03900E1CA8B /* Localizable.xcstrings */; };
+		CDFB33632F7AAC2600A47555 /* EsimKit in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33622F7AAC2600A47555 /* EsimKit */; };
+		CDFB33812F7AB12B00A47555 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33802F7AB12B00A47555 /* Stripe */; };
+		CDFB33832F7AB12B00A47555 /* StripeConnect in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33822F7AB12B00A47555 /* StripeConnect */; };
+		CDFB33852F7AB12B00A47555 /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33842F7AB12B00A47555 /* StripeFinancialConnections */; };
+		CDFB33872F7AB12B00A47555 /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33862F7AB12B00A47555 /* StripeIdentity */; };
+		CDFB33892F7AB12B00A47555 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33882F7AB12B00A47555 /* StripePaymentSheet */; };
+		CDFB338B2F7AB12B00A47555 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB338A2F7AB12B00A47555 /* StripePayments */; };
+		CDFB338E2F7AB16300A47555 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB338D2F7AB16300A47555 /* GoogleSignIn */; };
+		CDFB33902F7AB16300A47555 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB338F2F7AB16300A47555 /* GoogleSignInSwift */; };
+		CDFB33932F7AB26F00A47555 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33922F7AB26F00A47555 /* Auth */; };
+		CDFB33952F7AB26F00A47555 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33942F7AB26F00A47555 /* Functions */; };
+		CDFB33972F7AB26F00A47555 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33962F7AB26F00A47555 /* PostgREST */; };
+		CDFB33992F7AB26F00A47555 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33982F7AB26F00A47555 /* Storage */; };
+		CDFB339B2F7AB26F00A47555 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB339A2F7AB26F00A47555 /* Supabase */; };
+		CDFB339E2F7AB30100A47555 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB339D2F7AB30100A47555 /* FacebookBasics */; };
+		CDFB33A02F7AB30200A47555 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB339F2F7AB30100A47555 /* FacebookCore */; };
+		CDFB33A22F7AB30200A47555 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33A12F7AB30200A47555 /* FacebookLogin */; };
+		CDFB33D32F7AB71600A47555 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33D22F7AB71600A47555 /* FirebaseAnalytics */; };
+		CDFB33D52F7AB71600A47555 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33D42F7AB71600A47555 /* FirebaseAnalyticsCore */; };
+		CDFB33D72F7AB71600A47555 /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33D62F7AB71600A47555 /* FirebaseAnalyticsIdentitySupport */; };
+		CDFB33D92F7AB71600A47555 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33D82F7AB71600A47555 /* FirebaseAuth */; };
+		CDFB33DB2F7AB71600A47555 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33DA2F7AB71600A47555 /* FirebaseAuthCombine-Community */; };
+		CDFB33DD2F7AB71600A47555 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33DC2F7AB71600A47555 /* FirebaseCore */; };
+		CDFB33DF2F7AB71600A47555 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33DE2F7AB71600A47555 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDAFA9A22F7BC03900E1CA8B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		CDFB33532F7AAB7000A47555 /* ESIMSDKTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESIMSDKTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CDFB33552F7AAB7000A47555 /* ESIMSDKTestApp */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ESIMSDKTestApp; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFB33502F7AAB7000A47555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFB33DF2F7AB71600A47555 /* FirebaseMessaging in Frameworks */,
+				CDFB339B2F7AB26F00A47555 /* Supabase in Frameworks */,
+				CDFB33A22F7AB30200A47555 /* FacebookLogin in Frameworks */,
+				CDFB33972F7AB26F00A47555 /* PostgREST in Frameworks */,
+				CDFB33902F7AB16300A47555 /* GoogleSignInSwift in Frameworks */,
+				CDFB33D52F7AB71600A47555 /* FirebaseAnalyticsCore in Frameworks */,
+				CDFB33632F7AAC2600A47555 /* EsimKit in Frameworks */,
+				CDFB33DD2F7AB71600A47555 /* FirebaseCore in Frameworks */,
+				CDFB338E2F7AB16300A47555 /* GoogleSignIn in Frameworks */,
+				CDFB33852F7AB12B00A47555 /* StripeFinancialConnections in Frameworks */,
+				CDFB33872F7AB12B00A47555 /* StripeIdentity in Frameworks */,
+				CDFB33D32F7AB71600A47555 /* FirebaseAnalytics in Frameworks */,
+				CDFB33832F7AB12B00A47555 /* StripeConnect in Frameworks */,
+				CDFB33892F7AB12B00A47555 /* StripePaymentSheet in Frameworks */,
+				CDFB338B2F7AB12B00A47555 /* StripePayments in Frameworks */,
+				CDFB33992F7AB26F00A47555 /* Storage in Frameworks */,
+				CDFB33932F7AB26F00A47555 /* Auth in Frameworks */,
+				CDFB339E2F7AB30100A47555 /* FacebookBasics in Frameworks */,
+				CDFB33D72F7AB71600A47555 /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				CDFB33DB2F7AB71600A47555 /* FirebaseAuthCombine-Community in Frameworks */,
+				CDFB33812F7AB12B00A47555 /* Stripe in Frameworks */,
+				CDFB33952F7AB26F00A47555 /* Functions in Frameworks */,
+				CDFB33D92F7AB71600A47555 /* FirebaseAuth in Frameworks */,
+				CDFB33A02F7AB30200A47555 /* FacebookCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDFB334A2F7AAB7000A47555 = {
+			isa = PBXGroup;
+			children = (
+				CDAFA9A22F7BC03900E1CA8B /* Localizable.xcstrings */,
+				CDFB33552F7AAB7000A47555 /* ESIMSDKTestApp */,
+				CDFB33542F7AAB7000A47555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFB33542F7AAB7000A47555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFB33532F7AAB7000A47555 /* ESIMSDKTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDFB33522F7AAB7000A47555 /* ESIMSDKTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFB335E2F7AAB7100A47555 /* Build configuration list for PBXNativeTarget "ESIMSDKTestApp" */;
+			buildPhases = (
+				CDFB334F2F7AAB7000A47555 /* Sources */,
+				CDFB33502F7AAB7000A47555 /* Frameworks */,
+				CDFB33512F7AAB7000A47555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CDFB33552F7AAB7000A47555 /* ESIMSDKTestApp */,
+			);
+			name = ESIMSDKTestApp;
+			packageProductDependencies = (
+				CDFB33622F7AAC2600A47555 /* EsimKit */,
+				CDFB33802F7AB12B00A47555 /* Stripe */,
+				CDFB33822F7AB12B00A47555 /* StripeConnect */,
+				CDFB33842F7AB12B00A47555 /* StripeFinancialConnections */,
+				CDFB33862F7AB12B00A47555 /* StripeIdentity */,
+				CDFB33882F7AB12B00A47555 /* StripePaymentSheet */,
+				CDFB338A2F7AB12B00A47555 /* StripePayments */,
+				CDFB338D2F7AB16300A47555 /* GoogleSignIn */,
+				CDFB338F2F7AB16300A47555 /* GoogleSignInSwift */,
+				CDFB33922F7AB26F00A47555 /* Auth */,
+				CDFB33942F7AB26F00A47555 /* Functions */,
+				CDFB33962F7AB26F00A47555 /* PostgREST */,
+				CDFB33982F7AB26F00A47555 /* Storage */,
+				CDFB339A2F7AB26F00A47555 /* Supabase */,
+				CDFB339D2F7AB30100A47555 /* FacebookBasics */,
+				CDFB339F2F7AB30100A47555 /* FacebookCore */,
+				CDFB33A12F7AB30200A47555 /* FacebookLogin */,
+				CDFB33D22F7AB71600A47555 /* FirebaseAnalytics */,
+				CDFB33D42F7AB71600A47555 /* FirebaseAnalyticsCore */,
+				CDFB33D62F7AB71600A47555 /* FirebaseAnalyticsIdentitySupport */,
+				CDFB33D82F7AB71600A47555 /* FirebaseAuth */,
+				CDFB33DA2F7AB71600A47555 /* FirebaseAuthCombine-Community */,
+				CDFB33DC2F7AB71600A47555 /* FirebaseCore */,
+				CDFB33DE2F7AB71600A47555 /* FirebaseMessaging */,
+			);
+			productName = ESIMSDKTestApp;
+			productReference = CDFB33532F7AAB7000A47555 /* ESIMSDKTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFB334B2F7AAB7000A47555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					CDFB33522F7AAB7000A47555 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = CDFB334E2F7AAB7000A47555 /* Build configuration list for PBXProject "ESIMSDKTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDFB334A2F7AAB7000A47555;
+			packageReferences = (
+				CDFB33612F7AAC2600A47555 /* XCRemoteSwiftPackageReference "montyesim-eshop-SDK-iOS" */,
+				CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */,
+				CDFB338C2F7AB16300A47555 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				CDFB33912F7AB26F00A47555 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				CDFB339C2F7AB30100A47555 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				CDFB33D12F7AB71600A47555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CDFB33542F7AAB7000A47555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFB33522F7AAB7000A47555 /* ESIMSDKTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDFB33512F7AAB7000A47555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5266E12F7BC31900A61EA8 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDFB334F2F7AAB7000A47555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDFB335C2F7AAB7100A47555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = J67F4XX5DM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDFB335D2F7AAB7100A47555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J67F4XX5DM;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDFB335F2F7AAB7100A47555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleURLTypes = "{\n    CFBundleURLSchemes =     (\n        fb1733140017320755\n    );\n} {\n    CFBundleURLSchemes =     (\n        \"com.googleusercontent.apps.566038591872-5stl85go0r15mjire9i7q3bkd8k7hbbf\"\n    );\n} {\n    CFBundleURLSchemes =     (\n        iosupabaseflutter\n    );\n}";
+				INFOPLIST_KEY_FacebookAppID = 1733140017320755;
+				INFOPLIST_KEY_FacebookClientToken = 69991828fc1c07909d3679cb3f1e3b09;
+				INFOPLIST_KEY_FacebookDisplayName = SdkTest;
+				INFOPLIST_KEY_FirebaseAppDelegateProxyEnabled = NO;
+				INFOPLIST_KEY_GIDClientID = "566038591872-5stl85go0r15mjire9i7q3bkd8k7hbbf.apps.googleusercontent.com";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "remote-notification";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDFB33602F7AAB7100A47555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleURLTypes = "{\n    CFBundleURLSchemes =     (\n        fb1733140017320755\n    );\n} {\n    CFBundleURLSchemes =     (\n        \"com.googleusercontent.apps.566038591872-5stl85go0r15mjire9i7q3bkd8k7hbbf\"\n    );\n} {\n    CFBundleURLSchemes =     (\n        iosupabaseflutter\n    );\n}";
+				INFOPLIST_KEY_FacebookAppID = 1733140017320755;
+				INFOPLIST_KEY_FacebookClientToken = 69991828fc1c07909d3679cb3f1e3b09;
+				INFOPLIST_KEY_FacebookDisplayName = SdkTest;
+				INFOPLIST_KEY_FirebaseAppDelegateProxyEnabled = NO;
+				INFOPLIST_KEY_GIDClientID = "566038591872-5stl85go0r15mjire9i7q3bkd8k7hbbf.apps.googleusercontent.com";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "remote-notification";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFB334E2F7AAB7000A47555 /* Build configuration list for PBXProject "ESIMSDKTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFB335C2F7AAB7100A47555 /* Debug */,
+				CDFB335D2F7AAB7100A47555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFB335E2F7AAB7100A47555 /* Build configuration list for PBXNativeTarget "ESIMSDKTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFB335F2F7AAB7100A47555 /* Debug */,
+				CDFB33602F7AAB7100A47555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDFB33612F7AAC2600A47555 /* XCRemoteSwiftPackageReference "montyesim-eshop-SDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/montymobile1/montyesim-eshop-SDK-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+		CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 25.9.0;
+			};
+		};
+		CDFB338C2F7AB16300A47555 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+		CDFB33912F7AB26F00A47555 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		CDFB339C2F7AB30100A47555 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+		CDFB33D12F7AB71600A47555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDFB33622F7AAC2600A47555 /* EsimKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33612F7AAC2600A47555 /* XCRemoteSwiftPackageReference "montyesim-eshop-SDK-iOS" */;
+			productName = EsimKit;
+		};
+		CDFB33802F7AB12B00A47555 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = Stripe;
+		};
+		CDFB33822F7AB12B00A47555 /* StripeConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeConnect;
+		};
+		CDFB33842F7AB12B00A47555 /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeFinancialConnections;
+		};
+		CDFB33862F7AB12B00A47555 /* StripeIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripeIdentity;
+		};
+		CDFB33882F7AB12B00A47555 /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePaymentSheet;
+		};
+		CDFB338A2F7AB12B00A47555 /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			productName = StripePayments;
+		};
+		CDFB338D2F7AB16300A47555 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB338C2F7AB16300A47555 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		CDFB338F2F7AB16300A47555 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB338C2F7AB16300A47555 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		CDFB33922F7AB26F00A47555 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33912F7AB26F00A47555 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		CDFB33942F7AB26F00A47555 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33912F7AB26F00A47555 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		CDFB33962F7AB26F00A47555 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33912F7AB26F00A47555 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		CDFB33982F7AB26F00A47555 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33912F7AB26F00A47555 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		CDFB339A2F7AB26F00A47555 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33912F7AB26F00A47555 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		CDFB339D2F7AB30100A47555 /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB339C2F7AB30100A47555 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		CDFB339F2F7AB30100A47555 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB339C2F7AB30100A47555 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		CDFB33A12F7AB30200A47555 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB339C2F7AB30100A47555 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		CDFB33D22F7AB71600A47555 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33D12F7AB71600A47555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CDFB33D42F7AB71600A47555 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33D12F7AB71600A47555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		CDFB33D62F7AB71600A47555 /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33D12F7AB71600A47555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		CDFB33D82F7AB71600A47555 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33D12F7AB71600A47555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CDFB33DA2F7AB71600A47555 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33D12F7AB71600A47555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		CDFB33DC2F7AB71600A47555 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33D12F7AB71600A47555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		CDFB33DE2F7AB71600A47555 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDFB33D12F7AB71600A47555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CDFB334B2F7AAB7000A47555 /* Project object */;
+}
