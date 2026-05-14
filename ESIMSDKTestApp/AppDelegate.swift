@@ -89,12 +89,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 extension AppDelegate: ESimPaymentDelegate {
-    func startTopUpWallet(with data: ESIMSDK.ESimBundleAssignmentData?, paymentManager: ESIMSDK.ESimPaymentManager?) {
+    func startTopUpWallet(with data: ESIMSDK.ESimBundleAssignmentDomain?, paymentManager: ESIMSDK.ESimPaymentManager?) {
         print("startTopUpWallet \(data)")
     }
     
     func didAssignedBundle(
-        with data: ESIMSDK.ESimBundleAssignmentData,
+        with data: ESIMSDK.ESimBundleAssignmentDomain,
         paymentManager: ESIMSDK.ESimPaymentManager?) {
             print("Payment DidStart Data \(data)")
     }

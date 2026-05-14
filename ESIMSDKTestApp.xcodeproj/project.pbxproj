@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FDFB1BC2FB5AC2700A01F95 /* EsimKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8FDFB1BB2FB5AC2700A01F95 /* EsimKit */; };
 		CD5266E12F7BC31900A61EA8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CDAFA9A22F7BC03900E1CA8B /* Localizable.xcstrings */; };
-		CDFB33632F7AAC2600A47555 /* EsimKit in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33622F7AAC2600A47555 /* EsimKit */; };
-		CDFB33812F7AB12B00A47555 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33802F7AB12B00A47555 /* Stripe */; };
-		CDFB33832F7AB12B00A47555 /* StripeConnect in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33822F7AB12B00A47555 /* StripeConnect */; };
-		CDFB33852F7AB12B00A47555 /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33842F7AB12B00A47555 /* StripeFinancialConnections */; };
-		CDFB33872F7AB12B00A47555 /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33862F7AB12B00A47555 /* StripeIdentity */; };
-		CDFB33892F7AB12B00A47555 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33882F7AB12B00A47555 /* StripePaymentSheet */; };
-		CDFB338B2F7AB12B00A47555 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB338A2F7AB12B00A47555 /* StripePayments */; };
+		CD7A55F72FB5A70E00F7DC4C /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A55F62FB5A70E00F7DC4C /* Stripe */; };
+		CD7A55F92FB5A70E00F7DC4C /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A55F82FB5A70E00F7DC4C /* StripeApplePay */; };
+		CD7A55FB2FB5A70E00F7DC4C /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A55FA2FB5A70E00F7DC4C /* StripeCardScan */; };
+		CD7A55FD2FB5A70E00F7DC4C /* StripeConnect in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A55FC2FB5A70E00F7DC4C /* StripeConnect */; };
+		CD7A55FF2FB5A70E00F7DC4C /* StripeCryptoOnramp in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A55FE2FB5A70E00F7DC4C /* StripeCryptoOnramp */; };
+		CD7A56012FB5A70E00F7DC4C /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A56002FB5A70E00F7DC4C /* StripeFinancialConnections */; };
+		CD7A56032FB5A70E00F7DC4C /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A56022FB5A70E00F7DC4C /* StripeIdentity */; };
+		CD7A56052FB5A70E00F7DC4C /* StripeIssuing in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A56042FB5A70E00F7DC4C /* StripeIssuing */; };
+		CD7A56072FB5A70E00F7DC4C /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A56062FB5A70E00F7DC4C /* StripePaymentSheet */; };
+		CD7A56092FB5A70E00F7DC4C /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A56082FB5A70E00F7DC4C /* StripePayments */; };
+		CD7A560B2FB5A70E00F7DC4C /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = CD7A560A2FB5A70E00F7DC4C /* StripePaymentsUI */; };
 		CDFB338E2F7AB16300A47555 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB338D2F7AB16300A47555 /* GoogleSignIn */; };
 		CDFB33902F7AB16300A47555 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB338F2F7AB16300A47555 /* GoogleSignInSwift */; };
 		CDFB33932F7AB26F00A47555 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = CDFB33922F7AB26F00A47555 /* Auth */; };
@@ -39,8 +44,18 @@
 		CDFB33532F7AAB7000A47555 /* ESIMSDKTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESIMSDKTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8FDFB21E2FB5AD2700A01F95 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CDFB33522F7AAB7000A47555 /* ESIMSDKTestApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CDFB33552F7AAB7000A47555 /* ESIMSDKTestApp */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ESIMSDKTestApp; sourceTree = "<group>"; };
+		CDFB33552F7AAB7000A47555 /* ESIMSDKTestApp */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8FDFB21E2FB5AD2700A01F95 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ESIMSDKTestApp; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,29 +63,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7A55FB2FB5A70E00F7DC4C /* StripeCardScan in Frameworks */,
+				CD7A56012FB5A70E00F7DC4C /* StripeFinancialConnections in Frameworks */,
+				8FDFB1BC2FB5AC2700A01F95 /* EsimKit in Frameworks */,
+				CD7A56052FB5A70E00F7DC4C /* StripeIssuing in Frameworks */,
+				CD7A56032FB5A70E00F7DC4C /* StripeIdentity in Frameworks */,
 				CDFB33DF2F7AB71600A47555 /* FirebaseMessaging in Frameworks */,
+				CD7A55FD2FB5A70E00F7DC4C /* StripeConnect in Frameworks */,
+				CD7A55F72FB5A70E00F7DC4C /* Stripe in Frameworks */,
+				CD7A56072FB5A70E00F7DC4C /* StripePaymentSheet in Frameworks */,
 				CDFB339B2F7AB26F00A47555 /* Supabase in Frameworks */,
+				CD7A55FF2FB5A70E00F7DC4C /* StripeCryptoOnramp in Frameworks */,
 				CDFB33A22F7AB30200A47555 /* FacebookLogin in Frameworks */,
 				CDFB33972F7AB26F00A47555 /* PostgREST in Frameworks */,
+				CD7A55F92FB5A70E00F7DC4C /* StripeApplePay in Frameworks */,
 				CDFB33902F7AB16300A47555 /* GoogleSignInSwift in Frameworks */,
 				CDFB33D52F7AB71600A47555 /* FirebaseAnalyticsCore in Frameworks */,
-				CDFB33632F7AAC2600A47555 /* EsimKit in Frameworks */,
 				CDFB33DD2F7AB71600A47555 /* FirebaseCore in Frameworks */,
 				CDFB338E2F7AB16300A47555 /* GoogleSignIn in Frameworks */,
-				CDFB33852F7AB12B00A47555 /* StripeFinancialConnections in Frameworks */,
-				CDFB33872F7AB12B00A47555 /* StripeIdentity in Frameworks */,
 				CDFB33D32F7AB71600A47555 /* FirebaseAnalytics in Frameworks */,
-				CDFB33832F7AB12B00A47555 /* StripeConnect in Frameworks */,
-				CDFB33892F7AB12B00A47555 /* StripePaymentSheet in Frameworks */,
-				CDFB338B2F7AB12B00A47555 /* StripePayments in Frameworks */,
 				CDFB33992F7AB26F00A47555 /* Storage in Frameworks */,
 				CDFB33932F7AB26F00A47555 /* Auth in Frameworks */,
+				CD7A560B2FB5A70E00F7DC4C /* StripePaymentsUI in Frameworks */,
 				CDFB339E2F7AB30100A47555 /* FacebookBasics in Frameworks */,
 				CDFB33D72F7AB71600A47555 /* FirebaseAnalyticsIdentitySupport in Frameworks */,
 				CDFB33DB2F7AB71600A47555 /* FirebaseAuthCombine-Community in Frameworks */,
-				CDFB33812F7AB12B00A47555 /* Stripe in Frameworks */,
 				CDFB33952F7AB26F00A47555 /* Functions in Frameworks */,
 				CDFB33D92F7AB71600A47555 /* FirebaseAuth in Frameworks */,
+				CD7A56092FB5A70E00F7DC4C /* StripePayments in Frameworks */,
 				CDFB33A02F7AB30200A47555 /* FacebookCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,13 +135,6 @@
 			);
 			name = ESIMSDKTestApp;
 			packageProductDependencies = (
-				CDFB33622F7AAC2600A47555 /* EsimKit */,
-				CDFB33802F7AB12B00A47555 /* Stripe */,
-				CDFB33822F7AB12B00A47555 /* StripeConnect */,
-				CDFB33842F7AB12B00A47555 /* StripeFinancialConnections */,
-				CDFB33862F7AB12B00A47555 /* StripeIdentity */,
-				CDFB33882F7AB12B00A47555 /* StripePaymentSheet */,
-				CDFB338A2F7AB12B00A47555 /* StripePayments */,
 				CDFB338D2F7AB16300A47555 /* GoogleSignIn */,
 				CDFB338F2F7AB16300A47555 /* GoogleSignInSwift */,
 				CDFB33922F7AB26F00A47555 /* Auth */,
@@ -139,6 +152,18 @@
 				CDFB33DA2F7AB71600A47555 /* FirebaseAuthCombine-Community */,
 				CDFB33DC2F7AB71600A47555 /* FirebaseCore */,
 				CDFB33DE2F7AB71600A47555 /* FirebaseMessaging */,
+				CD7A55F62FB5A70E00F7DC4C /* Stripe */,
+				CD7A55F82FB5A70E00F7DC4C /* StripeApplePay */,
+				CD7A55FA2FB5A70E00F7DC4C /* StripeCardScan */,
+				CD7A55FC2FB5A70E00F7DC4C /* StripeConnect */,
+				CD7A55FE2FB5A70E00F7DC4C /* StripeCryptoOnramp */,
+				CD7A56002FB5A70E00F7DC4C /* StripeFinancialConnections */,
+				CD7A56022FB5A70E00F7DC4C /* StripeIdentity */,
+				CD7A56042FB5A70E00F7DC4C /* StripeIssuing */,
+				CD7A56062FB5A70E00F7DC4C /* StripePaymentSheet */,
+				CD7A56082FB5A70E00F7DC4C /* StripePayments */,
+				CD7A560A2FB5A70E00F7DC4C /* StripePaymentsUI */,
+				8FDFB1BB2FB5AC2700A01F95 /* EsimKit */,
 			);
 			productName = ESIMSDKTestApp;
 			productReference = CDFB33532F7AAB7000A47555 /* ESIMSDKTestApp.app */;
@@ -169,12 +194,12 @@
 			);
 			mainGroup = CDFB334A2F7AAB7000A47555;
 			packageReferences = (
-				CDFB33612F7AAC2600A47555 /* XCRemoteSwiftPackageReference "montyesim-eshop-SDK-iOS" */,
-				CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */,
 				CDFB338C2F7AB16300A47555 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				CDFB33912F7AB26F00A47555 /* XCRemoteSwiftPackageReference "supabase-swift" */,
 				CDFB339C2F7AB30100A47555 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 				CDFB33D12F7AB71600A47555 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
+				8FDFB1BA2FB5AC2700A01F95 /* XCRemoteSwiftPackageReference "montyesim-eshop-SDK-iOS" */,
 			);
 			productRefGroup = CDFB33542F7AAB7000A47555 /* Products */;
 			projectDirPath = "";
@@ -340,6 +365,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ESIMSDKTestApp/Info.plist;
 				INFOPLIST_KEY_CFBundleURLTypes = "{\n    CFBundleURLSchemes =     (\n        fb1733140017320755\n    );\n} {\n    CFBundleURLSchemes =     (\n        \"com.googleusercontent.apps.566038591872-5stl85go0r15mjire9i7q3bkd8k7hbbf\"\n    );\n} {\n    CFBundleURLSchemes =     (\n        iosupabaseflutter\n    );\n}";
 				INFOPLIST_KEY_FacebookAppID = 1733140017320755;
 				INFOPLIST_KEY_FacebookClientToken = 69991828fc1c07909d3679cb3f1e3b09;
@@ -383,6 +409,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ESIMSDKTestApp/Info.plist;
 				INFOPLIST_KEY_CFBundleURLTypes = "{\n    CFBundleURLSchemes =     (\n        fb1733140017320755\n    );\n} {\n    CFBundleURLSchemes =     (\n        \"com.googleusercontent.apps.566038591872-5stl85go0r15mjire9i7q3bkd8k7hbbf\"\n    );\n} {\n    CFBundleURLSchemes =     (\n        iosupabaseflutter\n    );\n}";
 				INFOPLIST_KEY_FacebookAppID = 1733140017320755;
 				INFOPLIST_KEY_FacebookClientToken = 69991828fc1c07909d3679cb3f1e3b09;
@@ -440,20 +467,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CDFB33612F7AAC2600A47555 /* XCRemoteSwiftPackageReference "montyesim-eshop-SDK-iOS" */ = {
+		8FDFB1BA2FB5AC2700A01F95 /* XCRemoteSwiftPackageReference "montyesim-eshop-SDK-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/montymobile1/montyesim-eshop-SDK-iOS.git";
+			repositoryURL = "https://github.com/montymobile1/montyesim-eshop-SDK-iOS";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.3;
 			};
 		};
-		CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */ = {
+		CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/stripe/stripe-ios";
+			repositoryURL = "https://github.com/stripe/stripe-ios-spm";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 25.9.0;
+				minimumVersion = 25.14.0;
 			};
 		};
 		CDFB338C2F7AB16300A47555 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
@@ -491,40 +518,65 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CDFB33622F7AAC2600A47555 /* EsimKit */ = {
+		8FDFB1BB2FB5AC2700A01F95 /* EsimKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CDFB33612F7AAC2600A47555 /* XCRemoteSwiftPackageReference "montyesim-eshop-SDK-iOS" */;
+			package = 8FDFB1BA2FB5AC2700A01F95 /* XCRemoteSwiftPackageReference "montyesim-eshop-SDK-iOS" */;
 			productName = EsimKit;
 		};
-		CDFB33802F7AB12B00A47555 /* Stripe */ = {
+		CD7A55F62FB5A70E00F7DC4C /* Stripe */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
 			productName = Stripe;
 		};
-		CDFB33822F7AB12B00A47555 /* StripeConnect */ = {
+		CD7A55F82FB5A70E00F7DC4C /* StripeApplePay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeApplePay;
+		};
+		CD7A55FA2FB5A70E00F7DC4C /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeCardScan;
+		};
+		CD7A55FC2FB5A70E00F7DC4C /* StripeConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
 			productName = StripeConnect;
 		};
-		CDFB33842F7AB12B00A47555 /* StripeFinancialConnections */ = {
+		CD7A55FE2FB5A70E00F7DC4C /* StripeCryptoOnramp */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeCryptoOnramp;
+		};
+		CD7A56002FB5A70E00F7DC4C /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
 			productName = StripeFinancialConnections;
 		};
-		CDFB33862F7AB12B00A47555 /* StripeIdentity */ = {
+		CD7A56022FB5A70E00F7DC4C /* StripeIdentity */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
 			productName = StripeIdentity;
 		};
-		CDFB33882F7AB12B00A47555 /* StripePaymentSheet */ = {
+		CD7A56042FB5A70E00F7DC4C /* StripeIssuing */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeIssuing;
+		};
+		CD7A56062FB5A70E00F7DC4C /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
 			productName = StripePaymentSheet;
 		};
-		CDFB338A2F7AB12B00A47555 /* StripePayments */ = {
+		CD7A56082FB5A70E00F7DC4C /* StripePayments */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CDFB337F2F7AB12B00A47555 /* XCRemoteSwiftPackageReference "stripe-ios" */;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
 			productName = StripePayments;
+		};
+		CD7A560A2FB5A70E00F7DC4C /* StripePaymentsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentsUI;
 		};
 		CDFB338D2F7AB16300A47555 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;

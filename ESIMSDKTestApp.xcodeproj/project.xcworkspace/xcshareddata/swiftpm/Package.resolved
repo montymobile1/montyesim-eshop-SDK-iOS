@@ -1,5 +1,5 @@
 {
-  "originHash" : "0406e0e5a63cdefbceedaf7dcf3eb97dc1fee830b630f415816328f03dd9855d",
+  "originHash" : "ea0314622cc790aa586174786b42b42a333bfae2a7310668b40450a6a8e14344",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -141,8 +141,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/montymobile1/montyesim-eshop-SDK-iOS.git",
       "state" : {
-        "revision" : "1d2b88f5e5c098d9fc105acb2ff2971ef91f0b1d",
-        "version" : "1.0.2"
+        "revision" : "c14c159f87a10b83d8544a5b6f1e2e014df353d2",
+        "version" : "1.0.3"
       }
     },
     {
@@ -164,12 +164,12 @@
       }
     },
     {
-      "identity" : "stripe-ios",
+      "identity" : "stripe-ios-spm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/stripe/stripe-ios",
+      "location" : "https://github.com/stripe/stripe-ios-spm.git",
       "state" : {
-        "revision" : "ca7865689662c09ee2af452449c79ba02a9e1605",
-        "version" : "25.9.0"
+        "revision" : "46c11d9fd2792e009aa931aa883bf92562ddae1a",
+        "version" : "25.14.0"
       }
     },
     {

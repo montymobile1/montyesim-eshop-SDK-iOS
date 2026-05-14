@@ -14,9 +14,9 @@ struct ThemeConfigurations {
     static var automatic: ESimTheme {
         guard let theme = ThemeGenerator.loadCustomTheme() else {
             return  ESimTheme(
-                colors: ESimClientColorScheme.default,
-                typography: ESimTypography.default,
-                shapes: ESimShapes.default
+                colors: ESimClientColorScheme.defaultColor,
+                typography: ESimTypography.defaultTypography,
+                shapes: ESimShapes.defaultShapes
             )
         }
         
@@ -54,7 +54,7 @@ struct ThemeConfigurations {
                 primaryFontFamily: theme.typography.primaryFontFamily,
                 secondaryFontFamily: theme.typography.secondaryFontFamily
             ),
-            shapes: ESimShapes.default
+            shapes: ESimShapes.defaultShapes
         )
         ESimFeatureFlagManager.shared.enableCruise = theme.features.enableCruise
         ESimFeatureFlagManager.shared.enableWallet = theme.features.enableWallet
@@ -105,16 +105,16 @@ struct ThemeConfigurations {
                 primaryFontFamily: "Poppins",
                 secondaryFontFamily: "Poppins"
             ),
-            shapes: ESimShapes.default
+            shapes: ESimShapes.defaultShapes
         )
     }
     
     // Theme Configuration 3 - Purple Theme
     static var purpleTheme: ESimTheme {
         ESimTheme(
-            colors: ESimClientColorScheme.default,
-            typography: ESimTypography.default,
-            shapes: ESimShapes.default
+            colors: ESimClientColorScheme.defaultColor,
+            typography: ESimTypography.defaultTypography,
+            shapes: ESimShapes.defaultShapes
         )
     }
 }
