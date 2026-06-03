@@ -472,7 +472,7 @@
 			repositoryURL = "https://github.com/montymobile1/montyesim-eshop-SDK-iOS";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.3;
+				minimumVersion = 1.0.4;
 			};
 		};
 		CD7A55F52FB5A70E00F7DC4C /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {

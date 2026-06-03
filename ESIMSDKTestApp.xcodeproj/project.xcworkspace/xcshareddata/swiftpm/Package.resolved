@@ -1,5 +1,5 @@
 {
-  "originHash" : "ea0314622cc790aa586174786b42b42a333bfae2a7310668b40450a6a8e14344",
+  "originHash" : "d47db9c29608b8764d39c3f1d4b3b56414c346a2b972a4947ab2ef98e17f7dc7",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -141,8 +141,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/montymobile1/montyesim-eshop-SDK-iOS.git",
       "state" : {
-        "revision" : "c14c159f87a10b83d8544a5b6f1e2e014df353d2",
-        "version" : "1.0.3"
+        "revision" : "22b24b8a724522186f4ff46c30f98a270de8c24d",
+        "version" : "1.0.4"
       }
     },
     {

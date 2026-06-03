@@ -9,7 +9,7 @@ import ESIMSDK
     /// Shared instance for accessing ESimKit functionality
      public static let shared = ESimKit()
      private let esimCore: ESIMCore? = nil
-     private let theme: ThemeManager? = nil
+     private let theme: ESIMThemeManager? = nil
 
     /// Private initializer to enforce singleton pattern
     private init() {}
