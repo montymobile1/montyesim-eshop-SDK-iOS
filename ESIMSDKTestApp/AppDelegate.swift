@@ -19,7 +19,7 @@ import FirebaseMessaging
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     
-    public let deepLinkCoordinator = DeepLinkCoordinator()
+    public var deepLinkCoordinator : ESIMDeepLinkCoordinator?
     
     var client: SupabaseClient!
     let apple = AppleLoginManager()
@@ -63,13 +63,14 @@ class AppDelegate: NSObject, UIApplicationDelegate {
                 deepLinkUrl: "your-deeplink-scheme:/",
                 countryCode: ESimFPNCountryCode.LB
             ),
-            localizationProvider: SDKTestLocalizationProvider(),
             paymentDelegate: self,
             socialLoginDelegate: self,
             supaBaseDelegate: self,
             loggedOutDelegate: self
         )
-    
+        
+        deepLinkCoordinator = ESIMDeepLinkCoordinator()
+        
         /// Create a single supabase client for interacting with your database
         
         return true
@@ -261,10 +262,8 @@ extension AppDelegate {
 }
 
 extension AppDelegate: ESimSupabaseConfigDelegate {
-    func loaded(with configs: ESIMSDK.SupaBaseConfigs) {
-        #if DEBUG
-        print("didFetch supaBase config")
-        #endif
+    func loaded(with configs: ESIMSDK.ESIMSupaBaseConfigs) {
+        print("didFetch supaBase config \(configs)")
         client = SupabaseClient(
             supabaseURL: URL(string: configs.supabaseURLString)!,
             supabaseKey: configs.supabaseKey,
@@ -311,7 +310,7 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         let userInfo = response.notification.request.content.userInfo
         print("Notification tapped with data: \(userInfo)")
         
-        deepLinkCoordinator.handleNotification(userInfo, { handled in
+        deepLinkCoordinator?.handleNotification(userInfo, { handled in
             if handled {
                 print("Link Handled")
             } else {
@@ -334,7 +333,7 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     func application(_ application: UIApplication,
                      didReceiveRemoteNotification userInfo: [AnyHashable : Any],
                      fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        deepLinkCoordinator.handleNotification(userInfo, { handled in
+        deepLinkCoordinator?.handleNotification(userInfo, { handled in
             if handled {
                 print("Link Handled")
             } else {

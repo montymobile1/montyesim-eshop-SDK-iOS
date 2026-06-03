@@ -17,11 +17,10 @@ import FBSDKCoreKit
 import FBSDKLoginKit
 
 struct ContentView: View {
-    @EnvironmentObject private var themeManager: ThemeManager
+    @EnvironmentObject private var themeManager: ESIMThemeManager
     @EnvironmentObject private var paymentManager: ESimPaymentManager
     @StateObject var model = StripePaymentHandler()
     @State var showSheet = false
-    @State private var orderData: ESimOrderLoadingDomain?
     @State private var showMyESimOrderBy: Bool = false
     @State private var showPaymentSuccess: Bool = false
     @State var showStripe = false

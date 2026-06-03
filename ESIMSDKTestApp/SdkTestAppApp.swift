@@ -31,7 +31,7 @@ struct SdkTestAppApp: App {
     private var mainFlowView: some View {
         VStack {
             if configsUpdated {
-                ThemeSelectionView(deepLinkCoordinator: appDelegate.deepLinkCoordinator)
+                ThemeSelectionView(deepLinkCoordinator: appDelegate.deepLinkCoordinator!)
             } else {
                 FeatureFlagsView(
                     configsUpdated: $configsUpdated
@@ -44,7 +44,7 @@ struct SdkTestAppApp: App {
 // MARK: - Theme Selection
 
 struct ThemeSelectionView: View {
-    let deepLinkCoordinator: DeepLinkCoordinator
+    let deepLinkCoordinator: ESIMDeepLinkCoordinator
     @State var selectedTheme: AppThemeVariant = .blue
     @State private var showingApp = false
     
@@ -52,7 +52,7 @@ struct ThemeSelectionView: View {
         if showingApp {
             ContentView()
                 .environmentObject(
-                    ThemeManager(
+                    ESIMThemeManager(
                         initialTheme: selectedTheme.theme,
                         localization: ESimLocalizationManager(
                             supportedLanguages: [ESimLanguage.english, ESimLanguage.arabic, ESimLanguage.french]
